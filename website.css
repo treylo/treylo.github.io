@@ -76,3 +76,7 @@ h3, p {
 a {
 	text-decoration: none;
 }
+
+.one-third {
+	max-width: 33%;
+}
