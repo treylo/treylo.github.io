@@ -26,3 +26,7 @@ div.max-that > img {
 .w3-sepia-min{
     filter:sepia(50%)
 }
+
+img {
+    width: max;
+}
