@@ -1,119 +1,156 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top has-background-dark">
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mackey Long</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <section class="hero">
-        <!-- Navbar that stays at the top of the viewport -->
-            <div class="hero-head">
-                <!-- I used to have a box class in the nav tag. It gave the nave bar some room. -->
-                    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
-                        <div class="container">
-                            <a href="#top-of-page">
-                                <div class="navbar-brand">
-                                        <div class="navbar-item has-background-danger">
-                                            <h1 class="is-uppercase has-text-light has-text-weight-semibold">#trxy</h1>
-                                        </div>
-                                </div>
-                            </a>
-                            <div class="navbar-menu">
-                                <div class="navbar-end">
-                                    <div class="navbar-item"><a href="#skillset" class="button is-dark has-text-light">skillset</a></div>
-                                    <div class="navbar-item"><a href="#resume" class="button is-dark has-text-light">resume</a></div>
-                                    <div class="navbar-item"><a href="#projects" class="button is-dark has-text-light">projects</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-    </section>
-</head>
-  <body>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- My meta tags-->
+    <meta name="description" content="Food around Nashville that Trey loves.">
+    <meta name="keywords" content="food, food in Nashville, good food, Nashville">
+    <meta name="author" content="Trey Long">
 
-      <!-- top of the page -->
-  <section id="top-of-page" class="hero is-dark is-fullheight"> 
-    <!-- Hero body: will show up in the middle -->
-    <div class="hero-body">
-            <div class="container has-text-centered">
-              <h1 class="title">
-                I am
-              </h1>
-              <h2 class="subtitle">
-                MACKEY LONG
-              </h2>
-            </div>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Stylings CSS -->
+    <link rel="stylesheet" href="stylings.css">
+    <style>body,h1,h2,h3,h4,h5,p {font-family: "Verdana", sans-serif; font-variant: small-caps; color:white; text-align: center;}</style>
+    
+    <link rel="icon" href="pizza-icon.png">
+
+    <title>NBF</title>
+  </head>
+  <!-- This portion may need to be in the body tag. The original html didn't have a body tag so idk -->
+  <!-- Figure out how to change the padding or margins on these pics so they sit flush -->
+  <!-- The middle picture is longer than the other two. Make them the same length -->
+  <!-- Maybe make a new CSS file that has tags like padding-0 and margins-0 and add them as classes-->
+  
+<body style="background-color: #252525;"></body>
+
+    <div class="row"> <!--This row just contains the images at the top of the screen -->
+        <div class="col-12 col-sm-4 padding-0 margin-0 max-that">
+            <img src="https://i2.wp.com/www.hungarianwines.eu/wp-content/uploads/2017/09/Fine-dining-with-a-celebrity-chef-2.png?fit=2500%2C1278">
+        </div>
+        <div class="col-6 col-sm-4 padding-0 margin-0 max-that">
+            <img src="https://static1.squarespace.com/static/573a10b34d088e2c9c1f932b/573e2714e707eba7229724ea/58bf27ece58c62f784403a1b/1528224339414/NBX_FamilyBox-056.jpg?format=1500w">
+        </div>
+        <div class="col-6 col-sm-4 padding-0 margin-0 max-that">
+            <img src="https://www.134latinfood.com/ressources/images/721218fdf6d7.jpg">
+        </div>
     </div>
-  </section>
-
-        <!-- Skills section -->
-  <section class="hero is-light is-fullheight">
-        <!-- Hero body: will show up in the middle -->
-        <div id="skillset" class="hero-body">
-            <div class="container has-text-centered">
-                <div class="tile is-ancestor">
-                    <div class="tile is-parent">
-                        <div class="tile is-child">
-
-                            <h3 class="title">HTML & CSS</h3>
-                            <progress class="progress is-danger" value="55" max="100">55%</progress>
-                            <h3 class="title">Python</h3>
-                            <progress class="progress is-danger" value="50" max="100">50%</progress>
-                            <h3 class="title">Linux</h3>
-                            <progress class="progress is-danger" value="40" max="100">40%</progress>
-                            <h3 class="title">JavaScript</h3>
-                            <progress class="progress is-danger" value="10" max="100">10%</progress>
-
-                        </div>
-                        <div class="tile is-child">
-                            
-
-                            <h1 class="title">
-                                        I possess
-                            </h1>
-                            <h2 class="subtitle">
-                                        a very particular set of skills. Skills I have a acquired over a very long education.
-                            </h2>
-                            
-                            
-
-                        </div>
-                        <div class="tile is-child">
-
-                                <h3 class="title">Soft Skills</h3>
-                                <progress class="progress is-danger" value="55" max="100">55%</progress>
-                                <h3 class="title">Soft Skills</h3>
-                                <progress class="progress is-danger" value="50" max="100">50%</progress>
-                                <h3 class="title">Soft Skills</h3>
-                                <progress class="progress is-danger" value="55" max="100">55%</progress>
-                                <h3 class="title">Soft Skills</h3>
-                                <progress class="progress is-danger" value="50" max="100">50%</progress>
-
-                        </div>
-                    </div>
-                </div>
 
 
+
+    
+        <!-- Title row "Nashville's Best Food" -->
+        <div class="row" style="background-color: white; text-align: center;">
+            <div class="col-12">
+                    <h1 style="color: black; text-align: center;">Nashville's Best Food</h1>
             </div>
         </div>
-    </section>
 
-    <!-- Resume section -->
-    <section id="resume" class="hero is-dark is-fullheight"> 
-            <!-- Hero body: will show up in the middle -->
-            <div class="hero-body">
-                <div class="container has-text-centered">
-                    <h1 class="title">
-                        Résumé
-                    </h1>
-                    
-                    <h2 class="subtitle">
-                        MACKEY LONG
-                    </h2>
-                </div>
+        <!-- Description row " Nashvilians are tired of... -->
+        
+        <div class="row padding-0" style="background-color: olive;">
+            <div class="col-12">
+                    <h3 style="text-align: center">Nashvillians are tired of seeing terrible "Best Places to Eat" lists in Nashville. So here's a good one. You're welcome.</h3>
             </div>
-          </section>
+        </div>
+
+
+    <div class="container padding-0" style="margin-top: 5%">
+        <div class="row">
+            <!-- This is the first row of content: Slim and Husky's -->
+            <div class="col-12 col-sm-4">
+                <!-- Name of Restuarant-->
+                <h3 style="text-align: center;" style="color: white;">
+                    Slim+Husky's
+                </h3>
+            </div>
+            <div class="col-12 col-sm-4">
+                <!-- Pic of Food with link to website-->
+                <a href="http://www.slimandhuskys.com" target="_blank">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0f/14/90/b2/smokin-herb-smoked-salmon.jpg" class="w3-hover-sepia" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <!-- Description of Restuarant-->
+                <p>Slim+Husky's is a black-owned pizza restaurant, owned by TSU students. One of the best Pizza places by far.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- This is the second row of content: Cafe Merengue -->
+            <div class="col-12 col-sm-4">
+                  <!-- Name of Restuarant-->
+                <h3 style="text-align: center;">
+                    Cafe Merengue
+                </h3>
+            </div>
+            <div class="col-12 col-sm-4">
+                <!-- Pic of Food with link to website-->
+                <a href="https://merengue-cafe.business.site/" target="_blank">
+                    <img src="https://lh3.googleusercontent.com/iV4TyLT7qf4sHToMjJ6II0d-GWezMecXCdxno1XvoG0S9cSDQGydBuMoDX4R5A8Kbt2LveSG=w320-h320-n-no-v1" class="w3-hover-sepia" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <!-- Description of Restuarant-->
+                <p>La comida más rica de Nashville. This food will have you dreaming about it for weeks on end.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- This is the third row of content: Mission BBQ -->
+            <div class="col-12 col-sm-4">
+                <!-- Name of Restuarant-->
+              <h3 style="text-align: center;">
+                  Mission BBQ
+              </h3>
+            </div>
+            <div class="col-12 col-sm-4">
+                <!-- Pic of Food with link to website-->
+                <a href="https://mission-bbq.com/" target="_blank">
+			        <img src="https://s3-media2.fl.yelpcdn.com/bphoto/WFVUqPMX-VgUDHYIODjqOg/348s.jpg" class="w3-hover-sepia" style="width: 100%;">
+		        </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <!-- Description of Restuarant-->
+                <p>It's BBQ and its theme is service oriented. The food is highly recommended.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- This is the fourth row of content: Milk and Honey -->
+            <div class="col-12 col-sm-4">
+                <!-- Name of Restuarant-->
+                <h3 style="text-align: center;">
+                    Milk & Honey
+                </h3>
+            </div>
+            <div class="col-12 col-sm-4">
+                <!-- Pic of Food with link to website-->
+                <a href="https://milkandhoneynashville.com/" target="_blank">
+                    <img src="https://s3-media4.fl.yelpcdn.com/bphoto/mfP8spLE5xzdp8cdte8bAw/o.jpg" class="w3-hover-sepia" style="width: 100%;">
+                </a>
+            </div>
+            <div class="col-12 col-sm-4">
+                <!-- Description of Restuarant-->
+                <p>You won't leave hungry, but you will leave happy. This Gulch restaurant has THE BEST food on all of its menus.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="row" style="padding:1.5%; text-align: center; background-color: olive;">
+            <h3>If you choose to trust another list more than this one, and it has Hattie B's listed in the top 5, you are a ripe fool and need to leave the city. Thank you.</h3>
+        </div>
+    </footer>
+
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
